@@ -1,10 +1,10 @@
 package br.edu.up.telas;
 
-import br.edu.up.controles.AeroportoController;
+import br.edu.up.controles.AeroportoControle;
 
 public class Main {
     public static void main(String[] args) {
-        AeroportoController controller = new AeroportoController();
+        AeroportoControle controller = new AeroportoControle();
         controller.iniciar();
     }
 }

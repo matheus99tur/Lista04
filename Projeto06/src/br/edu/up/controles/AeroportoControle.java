@@ -5,15 +5,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AeroportoController {
+public class AeroportoControle {
     private List<Passageiros> passageiros;
     private List<Tripulacao> tripulantes;
-    private AeroportoView view;
+    private AeroportoTela view;
 
-    public AeroportoController() {
+    public AeroportoControle() {
         this.passageiros = new ArrayList<>();
         this.tripulantes = new ArrayList<>();
-        this.view = new AeroportoView();
+        this.view = new AeroportoTela();
     }
 
     public void adicionarPassageiro(String nome, String rg, String identificadorBagagem, Passagem passagem) {

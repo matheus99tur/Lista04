@@ -1,6 +1,6 @@
 package br.edu.up.controles;
 
-public class AeroportoView {
+public class AeroportoTela {
     public void exibirMenu() {
         System.out.println("===== Aeroporto =====");
         System.out.println("1. Adicionar passageiro");
